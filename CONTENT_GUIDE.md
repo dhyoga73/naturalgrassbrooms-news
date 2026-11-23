@@ -63,7 +63,7 @@ Folder `articles/<slug>/` with two files:
   "description": "110–165 chars, contains the primary keyword, written as a reason to click",
   "summary": "1 sentence for the News listing card",
   "image": "one of the images listed under 'Images' below",
-  "image_alt": "Describe the image honestly (it shows a nipa palm broom or the bamboo twig broom)",
+  "image_alt": "Describe honestly what the chosen image shows",
   "primary_keyword": "tiger grass broom supplier",
   "keywords": ["supporting keyword 1", "supporting keyword 2"]
 }
