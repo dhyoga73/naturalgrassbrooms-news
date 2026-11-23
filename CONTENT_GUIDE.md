@@ -71,13 +71,12 @@ Folder `articles/<slug>/` with two files:
 Allowed tags: Buyer Guide, Product Guide, Export Guide, Market Insight, Sustainability, Company News.
 Images (file name — what it shows; vary images between consecutive articles):
 - tiger-grass-brooms-finished.jpg — a large pile of finished tiger grass (glagah / rayung) brooms with bamboo and plastic handles
-- tiger-grass-broom-handmade.jpg — one handmade tiger grass broom with a bundled-grass handle and coloured stitching
 - bamboo-twig-brooms-workshop.jpg — bamboo twig brooms standing upright in a workshop
 - tiger-grass-brooms-fan.jpg — four tiger grass brooms laid out in a fan shape on a tiled floor
 - tiger-grass-broom-handle-types.jpg — three tiger grass brooms with different handles (wrapped/striped, bamboo with white collar, natural bamboo)
 - nypah-80cm-catalog.jpg / nypah-105cm-catalog.jpg / nypah-120cm-catalog.jpg — nipa palm broom catalogue photos
 - indonesian-bamboo-twig-broom.webp — bamboo twig broom catalogue photo
-Alt text must describe what the image really shows. Never name or identify the supplier or the workshop.
+Do NOT use assets/sorghum-broom-handmade.jpg (sorghum is under development). Alt text must describe what the image really shows. Never name or identify the supplier or the workshop.
 New photos: put them (resized ≤1600 px, EXIF stripped) in assets/ and add them to ALLOWED_IMAGES in build.py; the server copies assets/ to the site.
 
 `body.html` — the article body only (no <h1>, no <script>):

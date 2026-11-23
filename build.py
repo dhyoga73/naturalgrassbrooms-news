@@ -40,7 +40,6 @@ ALLOWED_IMAGES = {
     "indonesian-bamboo-twig-broom.webp": (1086, 1448),
     # Real supplier photos (added 2026-11-23, stored in assets/ of this repo and synced to the site)
     "tiger-grass-brooms-finished.jpg": (1600, 1421),
-    "tiger-grass-broom-handmade.jpg": (888, 1600),
     "bamboo-twig-brooms-workshop.jpg": (985, 1600),
     "tiger-grass-brooms-fan.jpg": (1600, 1018),
     "tiger-grass-broom-handle-types.jpg": (1600, 1504),
