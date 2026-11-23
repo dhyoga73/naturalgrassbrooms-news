@@ -43,7 +43,7 @@ ALLOWED_IMAGES = {
     "tiger-grass-broom-handmade.jpg": (888, 1600),
     "bamboo-twig-brooms-workshop.jpg": (985, 1600),
     "tiger-grass-brooms-fan.jpg": (1600, 1018),
-    "tiger-grass-broom-handle-types.jpg": (1600, 1411),
+    "tiger-grass-broom-handle-types.jpg": (1600, 1504),
 }
 ALLOWED_TAGS = {"Buyer Guide", "Company News", "Market Insight", "Product Guide", "Export Guide", "Sustainability"}
 MIN_WORDS = 600
