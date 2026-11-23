@@ -62,14 +62,21 @@ Folder `articles/<slug>/` with two files:
   "seo_title": "≤ 65 chars, contains the primary keyword",
   "description": "110–165 chars, contains the primary keyword, written as a reason to click",
   "summary": "1 sentence for the News listing card",
-  "image": "one of: nypah-80cm-catalog.jpg | nypah-105cm-catalog.jpg | nypah-120cm-catalog.jpg | indonesian-bamboo-twig-broom.webp",
+  "image": "one of the images listed under 'Images' below",
   "image_alt": "Describe the image honestly (it shows a nipa palm broom or the bamboo twig broom)",
   "primary_keyword": "tiger grass broom supplier",
   "keywords": ["supporting keyword 1", "supporting keyword 2"]
 }
 ```
 Allowed tags: Buyer Guide, Product Guide, Export Guide, Market Insight, Sustainability, Company News.
-Image note: there is no photo of the tiger grass broom yet — for tiger grass articles use a nipa image and keep the alt text honest, e.g. "Natural palm broom from Indonesia".
+Images (file name — what it shows; vary images between consecutive articles):
+- tiger-grass-brooms-finished.jpg — a large pile of finished tiger grass (glagah / rayung) brooms with bamboo and plastic handles
+- tiger-grass-broom-handmade.jpg — one handmade tiger grass broom with a bundled-grass handle and coloured stitching
+- bamboo-twig-brooms-workshop.jpg — bamboo twig brooms standing upright in a workshop
+- nypah-80cm-catalog.jpg / nypah-105cm-catalog.jpg / nypah-120cm-catalog.jpg — nipa palm broom catalogue photos
+- indonesian-bamboo-twig-broom.webp — bamboo twig broom catalogue photo
+Alt text must describe what the image really shows. Never name or identify the supplier or the workshop.
+New photos: put them (resized ≤1600 px, EXIF stripped) in assets/ and add them to ALLOWED_IMAGES in build.py; the server copies assets/ to the site.
 
 `body.html` — the article body only (no <h1>, no <script>):
 - Start with `<p class="lead">…</p>` (2–3 sentences, contains the primary keyword).

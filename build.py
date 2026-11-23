@@ -38,6 +38,10 @@ ALLOWED_IMAGES = {
     "nypah-105cm-catalog.jpg": (1122, 1402),
     "nypah-120cm-catalog.jpg": (1122, 1402),
     "indonesian-bamboo-twig-broom.webp": (1086, 1448),
+    # Real supplier photos (added 2026-11-23, stored in assets/ of this repo and synced to the site)
+    "tiger-grass-brooms-finished.jpg": (1600, 1421),
+    "tiger-grass-broom-handmade.jpg": (888, 1600),
+    "bamboo-twig-brooms-workshop.jpg": (985, 1600),
 }
 ALLOWED_TAGS = {"Buyer Guide", "Company News", "Market Insight", "Product Guide", "Export Guide", "Sustainability"}
 MIN_WORDS = 600
